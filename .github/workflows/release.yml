@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Build release artifacts
-      run: make
+      run: make release-docker
